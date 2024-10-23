@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Administrador de Pacientes</title>
+  <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Administrador de Pacientes</h1>
+    
+    <div class="grid">
+      <div class="card">
+        <h2>Crear Cita</h2>
+        <form id="formulario">
+          <div class="campo">
+            <label for="mascota">Nombre Mascota</label>
+            <input type="text" id="mascota" placeholder="Nombre Mascota">
+          </div>
+          <div class="campo">
+            <label for="propietario">Nombre Dueño</label>
+            <input type="text" id="propietario" placeholder="Nombre Dueño de la mascota">
+          </div>
+          <div class="campo">
+            <label for="fecha">Fecha</label>
+            <input type="date" id="fecha">
+          </div>
+          <div class="campo">
+            <label for="hora">Hora</label>
+            <input type="time" id="hora">
+          </div>
+          <div class="campo">
+            <label for="sintomas">Síntomas</label>
+            <textarea id="sintomas" placeholder="Describe los síntomas"></textarea>
+          </div>
+          <input type="submit" class="boton" value="Agregar Cita">
+        </form>
+      </div>
+
+      <div class="card">
+        <h2>No hay citas</h2>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
